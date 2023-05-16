@@ -1,50 +1,52 @@
+ Memory usage: 114,508 KB
+
  Total number of clients: 1,000
- Total number of ordinary clients: 600
- Total number of data clients: 400
+ Total number of ordinary clients: 400
+ Total number of data clients: 600
 
 
- ####################  Test_local  ####################
+ ####################  Test_local_l  ####################
 
- Simulation ends in 720 h (2.592e+06 sec)
+ Simulation ends in 360 h (1.296e+06 sec)
 
-  OC. Number of downloads from data server 0: 215291
-  OC. Number of downloads from data server 1: 131175
-  OC. Number of downloads from data server 2: 79406
-  OC. Number of downloads from data server 3: 174128
+  OC. Number of downloads from data server 0: 39951
+  OC. Number of downloads from data server 1: 33626
 
-  DC. Number of downloads from data server 0: 258159
-  DC. Number of downloads from data server 1: 21
-  DC. Number of downloads from data server 2: 0
-  DC. Number of downloads from data server 3: 641820
+  DC. Number of downloads from data server 0: 0
+  DC. Number of downloads from data server 1: 40633
 
-  Scheduling server 0:  Busy: 0.1%
-  Data server 0:        Busy: 0.0% (OC: 0.0%, DC: 0.0%)
+  Scheduling server 0:	Busy: 0.0%
+  Data server 0:	Busy: 36.5% (OC: 16.9%, DC: 19.6%)
 
   Number of clients: 1,000
-  Number of ordinary clients: 600
-  Number of data clients: 400
+  Number of ordinary clients: 400
+  Number of data clients: 600
 
-  Data clients average storage: 2,506 MB
+  Data clients average storage: 15,003 MB
+  Data clients availability: 70.2%
 
-  Messages received:            1,200,579 (work requests received + results received)
-  Work requests received:       600,599
-  Results created:              600,000 (99.9%)
-  Results sent:                 600,000 (100.0%)
-  Results received:             599,980 (100.0%)
-  Results analyzed:             599,980 (100.0%)
-  Results success:              569,618 (94.9%)
-  Results failed:               30,361 (5.1%)
-  Results too late:             1 (0.0%)
-  Results valid:                488,270 (81.4%)
-  Workunits total:              300,000
-  Workunits completed:          244,135 (81.4%)
-  Workunits not completed:      55,865 (18.6%)
-  Workunits valid:              244,135 (81.4%)
-  Workunits error:              0 (0.0%)
-  Throughput:                   0.5 mens/s
-  FLOPS average:                3 GFLOPS
 
- Group 0. Average power: 3.681427 GFLOPS. Available: 46.2% Not available 53.8%
+  Messages received: 		146,836 (work requests received + results received)
+  Work requests received: 	73,622
+  Results created: 		81,266 (110.4%)
+  Results sent: 		73,622 (90.6%)
+  Results received: 		73,214 (90.1%)
+  Results analyzed: 		73,214 (100.0%)
+  Results success: 		65,977 (90.1%)
+  Results failed: 		7,237 (9.9%)
+  Results too late: 		0 (0.0%)
+  Results valid: 		47,958 (65.5%)
+  Workunits total: 		300,000
+  Workunits completed: 		23,979 (8.0%)
+  Workunits not completed: 	276,021 (92.0%)
+  Workunits valid: 		23,979 (8.0%)
+  Workunits error: 		0 (0.0%)
+  Throughput: 			0.1 mens/s
+  Credit granted: 		527,538 credits
+  FLOPS average: 		181 GFLOPS
 
- Clients. Average power: 3.681427 GFLOPS. Available: 46.2% Not available 53.8%
+ Group 0. Average power: 2.603873 GFLOPS. Available: 45.5% Not available 54.5%
+
+ Clients. Average power: 2.603873 GFLOPS. Available: 45.5% Not available 54.5%
+
 
