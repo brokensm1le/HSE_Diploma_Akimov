@@ -1,0 +1,51 @@
+ Memory usage: 115,776 KB
+
+ Total number of clients: 1,000
+ Total number of ordinary clients: 400
+ Total number of data clients: 600
+
+
+ ####################  Test_docker_4  ####################
+
+ Simulation ends in 360 h (1.296e+06 sec)
+
+  OC. Number of downloads from data server 0: 39529
+  OC. Number of downloads from data server 1: 35206
+
+  DC. Number of downloads from data server 0: 0
+  DC. Number of downloads from data server 1: 49684
+
+  Scheduling server 0:	Busy: 0.0%
+  Data server 0:	Busy: 46.7% (OC: 19.8%, DC: 27.0%)
+
+  Number of clients: 1,000
+  Number of ordinary clients: 400
+  Number of data clients: 600
+
+
+  Data clients average storage: 25,106 MB
+  Data clients availability: 70.2%
+
+
+  Messages received: 		149,156 (work requests received + results received)
+  Work requests received: 	74,781
+  Results created: 		99,366 (132.9%)
+  Results sent: 		74,781 (75.3%)
+  Results received: 		74,375 (74.8%)
+  Results analyzed: 		74,375 (100.0%)
+  Results success: 		66,971 (90.0%)
+  Results failed: 		7,404 (10.0%)
+  Results too late: 		0 (0.0%)
+  Results valid: 		48,580 (65.3%)
+  Workunits total: 		300,000
+  Workunits completed: 		24,290 (8.1%)
+  Workunits not completed: 	275,710 (91.9%)
+  Workunits valid: 		24,290 (8.1%)
+  Workunits error: 		0 (0.0%)
+  Throughput: 			0.1 mens/s
+  Credit granted: 		388,640 credits
+  FLOPS average: 		138 GFLOPS
+
+ Group 0. Average power: 2.513303 GFLOPS. Available: 45.5% Not available 54.5%
+
+ Clients. Average power: 2.513303 GFLOPS. Available: 45.5% Not available 54.5%

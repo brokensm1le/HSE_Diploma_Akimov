@@ -1,0 +1,51 @@
+ Memory usage: 117,796 KB
+
+ Total number of clients: 1,000
+ Total number of ordinary clients: 400
+ Total number of data clients: 600
+
+
+ ####################  Test_local_4  ####################
+
+ Simulation ends in 360 h (1.296e+06 sec)
+
+  OC. Number of downloads from data server 0: 51135
+  OC. Number of downloads from data server 1: 47285
+
+  DC. Number of downloads from data server 0: 0
+  DC. Number of downloads from data server 1: 68998
+
+  Scheduling server 0:	Busy: 0.0%
+  Data server 0:	Busy: 42.5% (OC: 17.8%, DC: 24.7%)
+
+  Number of clients: 1,000
+  Number of ordinary clients: 400
+  Number of data clients: 600
+
+
+  Data clients average storage: 24,581 MB
+  Data clients availability: 67.4%
+
+
+  Messages received: 		196,506 (work requests received + results received)
+  Work requests received: 	98,458
+  Results created: 		137,996 (140.2%)
+  Results sent: 		98,458 (71.3%)
+  Results received: 		98,048 (71.1%)
+  Results analyzed: 		98,048 (100.0%)
+  Results success: 		88,154 (89.9%)
+  Results failed: 		9,894 (10.1%)
+  Results too late: 		0 (0.0%)
+  Results valid: 		63,704 (65.0%)
+  Workunits total: 		300,000
+  Workunits completed: 		31,852 (10.6%)
+  Workunits not completed: 	268,148 (89.4%)
+  Workunits valid: 		31,852 (10.6%)
+  Workunits error: 		0 (0.0%)
+  Throughput: 			0.2 mens/s
+  Credit granted: 		509,632 credits
+  FLOPS average: 		176 GFLOPS
+
+ Group 0. Average power: 2.552303 GFLOPS. Available: 45.8% Not available 54.2%
+
+ Clients. Average power: 2.552303 GFLOPS. Available: 45.8% Not available 54.2%
